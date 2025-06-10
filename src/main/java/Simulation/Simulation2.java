@@ -1,4 +1,8 @@
-import Tisch.Tisch2;
+package Simulation;
+
+import Simulation.Schiedsrichter.Schiedsrichter2;
+import Simulation.Spieler.Spieler2;
+import Simulation.Tisch.Tisch2;
 import java.util.ArrayList;
 import java.util.List;
 

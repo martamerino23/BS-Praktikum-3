@@ -1,8 +1,6 @@
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
-import java.util.concurrent.locks.Condition;
-import Spielzug.Spielzug;
-import Tisch.Tisch2;
+package Simulation.Schiedsrichter;
+
+import Simulation.Tisch.Tisch2;
 
 public class Schiedsrichter2 extends Thread {
 

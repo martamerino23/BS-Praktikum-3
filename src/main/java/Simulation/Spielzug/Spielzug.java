@@ -1,4 +1,4 @@
-package Spielzug;
+package Simulation.Spielzug;
 
 public interface Spielzug {
 

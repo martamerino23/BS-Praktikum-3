@@ -1,3 +1,6 @@
+package Simulation.Schiedsrichter;
+
+import Simulation.Tisch.Tisch;
 import Tisch.*;
 
 public class Schiedsrichter extends Thread{

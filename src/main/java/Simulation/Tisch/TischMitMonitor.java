@@ -1,6 +1,6 @@
-package Tisch;
+package Simulation.Tisch;
 
-import Spielzug.Spielzug;
+import Simulation.Spielzug.Spielzug;
 
 
 public class TischMitMonitor implements Tisch {
@@ -9,6 +9,7 @@ public class TischMitMonitor implements Tisch {
     private int unentschieden = 0;
     private int siegSpieler1 = 0;
     private int siegSpieler2 = 0;
+
     Spielzug[] spielzugs = new Spielzug[2];
 
     public TischMitMonitor(int runden){

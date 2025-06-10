@@ -1,4 +1,4 @@
-package Spielzug;
+package Simulation.Spielzug;
 
 import java.util.Random;
 

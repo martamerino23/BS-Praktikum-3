@@ -1,4 +1,8 @@
-import Tisch.TischMitMonitor;
+package Simulation;
+
+import Simulation.Schiedsrichter.Schiedsrichter;
+import Simulation.Spieler.Spieler;
+import Simulation.Tisch.TischMitMonitor;
 
 import java.util.ArrayList;
 import java.util.List;

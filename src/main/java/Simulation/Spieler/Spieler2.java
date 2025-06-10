@@ -1,6 +1,8 @@
-import Spielzug.Spielzug;
-import Spielzug.SpielzugRandom;
-import Tisch.Tisch2;
+package Simulation.Spieler;
+
+import Simulation.Spielzug.Spielzug;
+import Simulation.Spielzug.SpielzugRandom;
+import Simulation.Tisch.Tisch2;
 
 public class Spieler2 extends Thread{
 

@@ -1,8 +1,8 @@
-package Tisch;
+package Simulation.Tisch;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.concurrent.locks.Condition;
-import Spielzug.Spielzug;
+import Simulation.Spielzug.Spielzug;
 
 
 public class Tisch2 implements Tisch{
@@ -31,7 +31,7 @@ public class Tisch2 implements Tisch{
             }
 
             spielzuege[spielerId] = zug;
-            System.out.println("Spieler " + (spielerId +1) + " legt: " + zug);
+            System.out.println("Simulation/Spieler " + (spielerId +1) + " legt: " + zug);
 
 
             if (spielzuege[0] != null && spielzuege[1] != null) {
